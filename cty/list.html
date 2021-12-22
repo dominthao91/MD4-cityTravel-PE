@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>Title</title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+</head>
+<center>
+    <body onload="showList()">
+    <button onclick="addNewCity()">Create New City</button>
+
+    <form id="addCity" ></form>
+
+    <form id="editCity"> </form>
+
+    <table border="1">
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Area</th>
+            <th>Population</th>
+            <th>GDP</th>
+            <th>Note</th>
+            <th>Country</th>
+            <th>Edit</th>
+            <th>Delete</th>
+        </tr>
+        </thead>
+        <tbody id="city">
+
+        </tbody>
+    </table>
+    <script src="city.js"></script>
+    </body>
+</center>
+</html>
